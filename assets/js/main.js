@@ -283,7 +283,7 @@
     $('#subscribe').submit(function(e) {
       e.preventDefault();
       $.ajax({
-        url: 'http://65.108.215.26/file.php',
+        url: 'https://65.108.215.26/file.php',
         method: 'post',
         data: $('#subscribe').serializeArray(),
         success: function(result) {

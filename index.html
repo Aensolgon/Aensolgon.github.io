@@ -5,17 +5,11 @@
     <meta name="viewport" content="initial-scale=1, width=device-width"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Proxima Nova:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap"
-    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Proxima Nova:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap"/>
     <link rel="stylesheet" href="assets/vendor/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/vendor/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
-    <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
-    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -58,7 +52,8 @@
                         н м к
                     </span>
                 </div>
-                <div class="d-flex justify-content-start align-items-baseline flex-column"><p class="m-0">Запишитесь
+                <div class="d-flex justify-content-start align-items-baseline btn-popup flex-column"><p class="m-0">
+                    Запишитесь
                     на</p>
                     <p class="m-0">проверку</p></div>
             </div>
@@ -66,7 +61,7 @@
         <div class="divider"></div>
         <div class="d-flex flex-column justify-content-center align-items-end">
             <div class="phone-number">+7 (800) 111-111-1</div>
-            <div class="call-me">Перезвоните мне</div>
+            <a class="call-me" href="tel:+7 (800) 111-111-1"> Перезвоните мне</a>
         </div>
         <div class="d-flex justify-content-center align-items-center">
             <div class="d-flex">
@@ -101,10 +96,16 @@
                 <li><a class="nav-link scrollto" href="#team">Текст текст</a></li>
                 <li><a class="nav-link scrollto" href="#contact">Текст и текст</a></li>
             </ul>
+
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
-
     </div>
+    <form action="">
+        <div class="form-group has-search m-0 w-100">
+            <span class="form-control-feedback"></span>
+            <input type="text" class="form-search">
+        </div>
+    </form>
 </header><!-- End Header -->
 
 <!-- ======= Main ======= -->
@@ -212,7 +213,7 @@
 
         </div>
         <div class="d-flex justify-content-center align-items-center">
-            <a href="#" class="btn button button-outline-primary btn-arrow fz-1">Записаться на проверку</a>
+            <a href="#" class="btn button btn-popup button-outline-primary btn-arrow fz-1">Записаться на проверку</a>
         </div>
     </div>
 </section>
@@ -311,7 +312,7 @@
         </div>
     </div>
     <div class="d-flex justify-content-center align-items-center">
-        <a href="#" class="btn button button-outline-primary btn-arrow fz-1">Записаться на проверку</a>
+        <a href="#" class="btn button btn-popup button-outline-primary btn-arrow fz-1">Записаться на проверку</a>
     </div>
 </section>
 
@@ -331,7 +332,8 @@
                 </div>
                 <div class="col-lg-5">
                     <form id="subscribe" action="" method="post">
-                        <input required class="custom-form-input" type="email" name="email" placeholder="Введите ваш e-mail">
+                        <input required class="custom-form-input" type="email" name="email"
+                               placeholder="Введите ваш e-mail">
                         <input class="btn button btn-green" type="submit" value="Подписаться">
                     </form>
                 </div>
@@ -446,7 +448,8 @@
         </div>
         <div class="form-check">
             <input type="checkbox" class="form-check-input" id="sending">
-            <label class="form-check-label" for="sending">Я хочу получать информацию о новостях и акциях компании</label>
+            <label class="form-check-label" for="sending">Я хочу получать информацию о новостях и акциях
+                компании</label>
         </div>
         <button type="submit" class="btn button mt-3 btn-green">Отправить форму</button>
     </form>
