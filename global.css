@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --bd: "Proxima Nova";
+  --font-inherit: inherit;
+
+  /* font sizes */
+  --font-size-xs: 12px;
+  --bd-size: 18px;
+  --reg-size: 14px;
+  --bd1-size: 16px;
+  --h3-size: 28px;
+  --font-size-xl: 20px;
+
+  /* Colors */
+  --white: #fff;
+  --text-primary: #37454a;
+  --text-60: rgba(55, 69, 74, 0.6);
+  --primary: #76b926;
+  --color-yellowgreen-100: #76b72a;
+  --bg-light-grey: #f4f4f4;
+  --sroke: #dfdfdf;
+  --gradient: linear-gradient(90deg, #6CB644 0%, #82CA2C 100%);
+
+  /* Gaps */
+  --gap-3xs: 10px;
+  --gap-xl: 20px;
+
+  /* Paddings */
+  --padding-mini: 15px;
+  --padding-11xl: 30px;
+  --padding-5xl: 24px;
+
+  /* border radiuses */
+  --br-7xl: 26px;
+  --br-16xl: 35px;
+  --br-lgi: 19px;
+  --br-5xs: 8px;
+  --br-mini: 15px;
+
+  /* Effects */
+  --small-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  --btn-color-shadow: 0px 10px 20px rgba(132, 199, 55, 0.3);
+
+  /* Backgrounds */
+  --bg-header: #6EB744;
+}
